@@ -29,7 +29,7 @@ spec:
         namespace: default
       syncPolicy:
         automated: {}
-        selfHeal: true
+        self-heal: true
         syncOptions:
           - CreateNamespace=true
         
